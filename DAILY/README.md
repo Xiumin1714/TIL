@@ -13,6 +13,6 @@
 * Git의 동작: git과 관련된 명령어이면 무조건 git으로 시작함
 +   ```git init```
 +   ```git add``` 
--       ```git add .```: 모든 파일
--       ```git add 파일명```: 특정 파일
+-    ```git add .```: 모든 파일
+-    ```git add 파일명```: 특정 파일
 +   ```git commit -m "커밋 메시지"``` 
