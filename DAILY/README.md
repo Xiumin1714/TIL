@@ -16,3 +16,24 @@
 -    ```git add .```: 모든 파일
 -    ```git add 파일명```: 특정 파일
 +   ```git commit -m "커밋 메시지"``` 
+
+---
+---
+
+## [250117] TIL: Create My Portpolio Using Github
+---
+## Revert&Reset
+* Revert 
+```git revert <commit id>```
+특정 commit을 실행 취소하는 것
+취소한 history가 기록되기 때문에 무결성을 보장하며 협업의 신뢰성을 ㄴㅍ임
+
+* Reset
+```git reset [옵션] <commit id>```
+특정 commit으로 되돌아가는 것
+돌아간 지점 다음에 만들어진 commit을 어떻게 처리할 지에 대해 3가지 옵션이 있음
+   ```git reset --soft <commit id>``` : commit기록을 staging area에 남김
+   ```git reset --mixed <commit id>``` : commit기록을 working directory에 남김
+   ```git reset --hard <commit id>```: commit기록을 아예 삭제
+   
+
